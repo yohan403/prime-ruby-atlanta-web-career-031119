@@ -14,7 +14,9 @@ def prime?(int)
       break
     end
   end
-  if boolean_list.include?(TRUE)
-    
-      
+  if boolean_list.include?(FALSE)
+    return FALSE
+  else
+    return TRUE
+  end
 end
