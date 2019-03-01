@@ -20,7 +20,7 @@ def prime?(int)
     else
       return TRUE
     end
-  elsif int == 19
+  elsif int == 1
     return FALSE
   else
     return FALSE
