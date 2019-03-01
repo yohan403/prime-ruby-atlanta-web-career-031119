@@ -22,6 +22,5 @@ def prime?(int)
     end
   else
     return FALSE
-    break
   end
 end
