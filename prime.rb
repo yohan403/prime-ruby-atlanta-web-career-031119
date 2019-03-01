@@ -5,6 +5,7 @@ def prime?(int)
   boolean_list = []
   if int < 0
     return FALSE
+    break
   end
   for i in prime_list do
     while i < sq_rt do
