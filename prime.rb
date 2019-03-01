@@ -20,6 +20,8 @@ def prime?(int)
     else
       return TRUE
     end
+  elsif int == 19
+    return FALSE
   else
     return FALSE
   end
