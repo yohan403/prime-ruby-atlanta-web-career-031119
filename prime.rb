@@ -1,3 +1,4 @@
 # Add  code here!
-def prime(int)
+def prime?(int)
+  
 end
