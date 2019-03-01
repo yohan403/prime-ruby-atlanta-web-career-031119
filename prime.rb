@@ -5,7 +5,7 @@ def prime?(int)
   if int > 1
     sq_rt = Math.sqrt(int)
     for i in prime_list do
-      while i < sq_rt do
+      while i <= sq_rt do
         remainder = int % i
         if remainder == 0
           boolean_list.push(FALSE)
